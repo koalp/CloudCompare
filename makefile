@@ -25,7 +25,7 @@ config:
 		-DPLUGIN_STANDARD_QCOMPASS=ON \
 		-DPLUGIN_STANDARD_QCSF=ON \
 		-DPLUGIN_STANDARD_QFACETS=ON \
-		-DPLUGIN_STANDARD_QHOUGH_NORMALS=OFF \ # NOTE: plugin deactivated because it does not compile
+		-DPLUGIN_STANDARD_QHOUGH_NORMALS=ON \
 		-DEIGEN_ROOT_DIR=$(nix eval -f '<nixpkgs>' --raw eigen)/include/eigen3 \
 		-DPLUGIN_STANDARD_QHPR=ON \
 		-DPLUGIN_STANDARD_QM3C2=ON \

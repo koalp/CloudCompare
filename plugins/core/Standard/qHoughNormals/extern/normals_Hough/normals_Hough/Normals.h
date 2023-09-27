@@ -43,7 +43,7 @@
 #include <math.h>
 #include <string>
 #include <sstream>
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 #include <nanoflann.hpp>
 
 #ifdef _OPENMP
