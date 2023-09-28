@@ -38,8 +38,5 @@ config:
 		-DCMAKE_BUILD_TYPE=Release
 
 .PHONY: build
-build: config plugins/private/CloudCompare-PythonPlugin
+build: config
 	cmake --build build
-
-plugins/private/CloudCompare-PythonPlugin:
-	git clone https://github.com/tmontaigu/CloudCompare-PythonPlugin plugins/private/CloudCompare-PythonPlugin
