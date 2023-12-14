@@ -16,6 +16,7 @@ in
     ];
     buildInputs = with pkgs; [
       cmake
+      cmake-language-server
       boost
       cgal_5
       flann
