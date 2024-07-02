@@ -30,3 +30,6 @@
 	path = plugins/core/Standard/q3DMASC
 	url = https://github.com/dgirardeau/q3DMASC.git
 	branch = master
+[submodule "plugins/external/CloudCompare-PythonPlugin"]
+	path = plugins/external/CloudCompare-PythonPlugin
+	url = https://github.com/tmontaigu/CloudCompare-PythonRuntime
